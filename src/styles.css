@@ -1,0 +1,57 @@
+
+*{
+    padding:0%;
+    margin:0%; 
+    box-sizing: border-box;   
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.contenedor{
+    width:70%;
+    background: white;
+    margin: auto;
+    border: 1px solid #c1c1c1;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background: url('img/wallhaven-72rxqo.jpg')black;
+    background-size: cover ;
+    background-position: center;
+}
+
+main .perfil{
+    width: 200px;
+    height: 200px;
+    background: gray;
+    margin: -105px auto auto auto;
+    border: 6px solid #fff;
+    border-radius: 50%;
+}
+
+main .perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+main .texto{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+}
+main .texto h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+main .texto p{
+    font-size: 18px;
+}
+footer{
+    background: slateblue;
+    padding: 15px;
+}
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
