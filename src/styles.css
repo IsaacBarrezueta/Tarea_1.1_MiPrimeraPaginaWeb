@@ -8,10 +8,14 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .contenedor{
-    width:70%;
+    width: 100%;
+    max-width: auto; /* Puedes ajustar este valor según tus necesidades */
     background: white;
-    margin: auto;
+    margin: 0 auto;
     border: 1px solid #c1c1c1;
+    padding: 2%;
+    box-sizing: border-box;
+    
 }
 header{
     width: 100%;
@@ -36,14 +40,18 @@ main .perfil img{
 }
 main .texto{
     text-align: center;
+    padding: 2%;
 }
+
 main .texto h2{
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 2em;
+    margin-bottom: 1em;
 }
+
 main .texto p{
-    font-size: 18px;
+    font-size: 1em;
 }
+
 footer{
     background: slateblue;
     padding: 15px;
